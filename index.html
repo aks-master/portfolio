@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css>
+    <title>Abhishek Kumar Singh- Portfolio</title>
+  </head>
+  <body id="root">
+    <header>
+      <nav
+        id="topNav"
+        class="navbar fixed-top navbar-expand-lg bg-body-tertiary"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Abhishek Kumar Singh</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <!-- navigations -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item text-danger">
+                <a class="nav-link" aria-current="page" href="#">linkedIn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Github</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/resume.pdf" target="_blank"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+
+            <button type="button" id="changeTheme" style="margin: 1rem">
+              Dark Mode
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main content -->
+    <div
+      class="container-fluid text-center"
+      style="width: 100%; margin-right: 0px; padding: 0px; margin-top: 122px"
+    >
+      <div class="row">
+        <!-- projects column  -->
+        <div class="col-9">
+          <div class="row">
+            <div class="col">
+              <h1 class="text-center">Projects</h1>
+            </div>
+          </div>
+
+          <!-- each row has 2 projects -->
+          <div class="row m-2">
+
+            <!-- first project -->
+            <div class="col-6">
+              <div class="card" style="width: 30rem">
+                <img
+                  src="./assets/images/techBlog.png"
+                  class="card-img-top"
+                  alt="techblog"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Simple Responsive blog post project made using HTML and CSS
+                    flexbox and grid.
+                  </p>
+                  <a
+                    href="https://aks-master.github.io/techBlog/"
+                    target="_blank"
+                    >Browse</a
+                  >
+                </div>
+              </div>
+            </div>
+
+          <!-- second project -->
+          <div class="col-6">
+            <div class="card" style="width: 30rem">
+              <img
+                src="./assets/images/topSellerBooks.png"
+                class="card-img-top"
+                alt="techblog"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  A Simple React App listing top selling books, from array. (Cannot find any API like it so serving static data)
+                </p>
+                <a
+                  href="https://aks-top-best-seller-react.netlify.app/"
+                  target="_blank"
+                  >Browse</a
+                >
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <!-- sidebar column -->
+        <div class="col-3">
+          <!-- sidebar -->
+          <div
+            id="sidebar"
+            class="d-flex flex-column flex-shrink-0 p-3 float-end"
+            style="width: 280px"
+            data-bs-theme="light"
+          >
+            <span class="fs-4">SKILLS</span>
+            <hr />
+            <pre class="fs-6">
+                HTML/CSS 
+              JavaScript </pre
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bottom nav -->
+    <nav
+      id="bottomNav"
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-bottom"
+      data-bs-theme="light"
+    >
+      <div class="container-fluid">
+        <h3>Abhishek Kumar Singh</h3>
+      </div>
+    </nav>
+
+    <!-- bootstrp script -->
+    <script src=".assets/css/bootstrap.bundle.min.js"></script>
+    <!-- scipt to fetch weather -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
